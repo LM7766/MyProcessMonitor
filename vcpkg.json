@@ -1,0 +1,12 @@
+{
+  "name": "my-process-monitor",
+  "version-string": "0.1.0",
+  "description": "Idle-time abnormal process monitor for Windows 10",
+  "builtin-baseline": "a073c28e52d920cb2465a17512324b3b6684d03a",
+  "dependencies": [
+    "nlohmann-json",
+    "spdlog",
+    "sqlite3",
+    "gtest"
+  ]
+}

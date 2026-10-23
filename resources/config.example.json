@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "sampling": {
+    "intervalMs": 1000
+  },
+  "idle": {
+    "thresholdSeconds": 120,
+    "treatLockedAsIdle": true,
+    "treatDisplayOffAsIdle": true,
+    "suppressWhenMediaPlaying": true,
+    "suppressWhenFullscreen": true,
+    "foregroundGraceSeconds": 600
+  },
+  "detection": {
+    "systemCpuTriggerPercent": 12.0,
+    "minBusyCores": 0.75,
+    "sustainSeconds": 30,
+    "exitBelowPercent": 6.0,
+    "exitSustainSeconds": 60,
+    "cooldownSeconds": 900,
+    "startupGraceSeconds": 180
+  },
+  "scoring": {
+    "warningScore": 60,
+    "criticalScore": 80,
+    "knownMaintenanceCap": 65
+  },
+  "storage": {
+    "retentionDays": 90
+  },
+  "privacy": {
+    "storeCommandLine": false
+  },
+  "logging": {
+    "level": "info"
+  },
+  "startup": {
+    "autoStart": false
+  }
+}
